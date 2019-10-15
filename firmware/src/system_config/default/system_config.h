@@ -171,7 +171,7 @@ extern "C" {
 /*** Application Defined Pins ***/
 
 #define APP_LED_PORT        PORT_CHANNEL_G  // LEDs connected to PIC32 I/O PortH
-#define APP_LED1_PIN        PORTS_BIT_POS_0 // Pin RH0 want RB0
+#define APP_LED1_PIN        OUTPUT_PIN_RPB0 //PORTS_BIT_POS_0 // Pin RH0 want RB0
 #define APP_LED2_PIN        PORTS_BIT_POS_1 // Pin RH1 want rc15
 #define APP_LED3_PIN        PORTS_BIT_POS_2 // Pin RH2 want rd5
 
